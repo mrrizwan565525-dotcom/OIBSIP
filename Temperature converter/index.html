@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Temperature Converter</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+
+    <section class="navigation">
+      <nav class="nav-bar">
+        <h1>Temperature Converter</h1>
+
+        <ul class="nav-link">
+          <li>
+            <a href="#fahrenheit-box">Fahrenheit to Celsius</a>
+          </li>
+
+          <li>
+            <a href="#celsius-box">Celsius to Fahrenheit</a>
+          </li>
+
+          <li>
+            <a href="#">Blogs</a>
+          </li>
+
+          <li>
+            <a href="#">FAQs</a>
+          </li>
+        </ul>
+      </nav>
+
+    </section>
+
+    <!-- Temperature Converter -->
+
+    <section class="scale">
+      
+      <div class="main">
+        <h2>Temperature Converter</h2>
+
+        <!-- Fahrenheit to Celsius -->
+        <div class="converter-box" id="fahrenheit-box">
+          <h3>Fahrenheit to Celsius</h3>
+
+          <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit" />
+
+          <button type="button" id="convert">Convert</button>
+
+          <p id="result1"></p>
+        </div>
+
+        <!-- Celsius to Fahrenheit -->
+        <div class="converter-box" id="celsius-box">
+          <h3>Celsius to Fahrenheit</h3>
+
+          <input type="number" id="celsius" placeholder="Enter Celsius" />
+
+          <button type="button" id="convert2">Convert</button>
+
+          <p id="result2"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
