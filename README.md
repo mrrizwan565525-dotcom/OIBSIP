@@ -75,11 +75,8 @@ Program: OIBSIP Web Development Internship
 Author : Muhammed Rizwan
 ## Demo Videos
 
-- [Landing Page Demo](https://drive.google.com/file/d/1kIaHzGtC2OaGSMviPguEbb5v9qLQ80Lc/view?usp=sharing)
-- [Portfolio Demo](https://drive.google.com/file/d/19NNDHmY-YMjGngpf_Q6UCPKhN_0px7JL/view?usp=sharing)
-- [Temperature Converter Demo](https://drive.google.com/file/d/1QgCB7xu0iIfbquy5DC3GGaENXm8x1UhC/view?usp=sharing)
-
-
-
+- "Landing Page Demo" (https://drive.google.com/file/d/1QgCB7xu0iIfbquy5DC3GGaENXm8x1UhC/view?usp=sharing)
+- "Portfolio Demo" (https://drive.google.com/file/d/1kIaHzGtC2OaGSMviPguEbb5v9qLQ80Lc/view?usp=sharing)
+- "Temperature Converter Demo" (https://drive.google.com/file/d/19NNDHmY-YMjGngpf_Q6UCPKhN_0px7JL/view?usp=sharing)
 Muhammad Rizwan
 
