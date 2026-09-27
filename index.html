@@ -1,87 +1,307 @@
 <!doctype html>
+
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web-p1</title>
+
+    <meta name="description" content="Mr. Rizwan - Frontend Developer creating modern and responsive websites." />
+
+    <title>Mr. Rizwan | Frontend Developer</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav>
-      <div class="brand">
-        <i class="fa-brands fa-studiovinari"></i>
-        <h2 class="heading">Digitally</h2>
-      </div>
-      <ul class="main">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Testimonials</a></li>
-      </ul>
-      <div class="button">
-        <a class="login" href="#">Login</a>
-        <button class="sign"><a href="#">Sign Up</a></button>
-      </div>
-    </nav>
-    <div class="section">
-      <div class="text-content">
-        <p class="creative-work">CREATIVE WORK, CREATIVE PEOPLE</p>
-        <h1 class="digital-agency">We are Creative Digital Agency</h1>
-        <p class="description">
-          We went to know what consumers are looking for, what their values are,
-          and how can meet their needs. It's not about big Data; it's about
-          translating that into the truth.
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#home" class="logo">
+                <i class="fa-brands fa-gripfire"></i>
+                MR. RIZWAN
+            </a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <span class="available"> Available for Frontend Roles </span>
+
+            <h1>
+                Hi, I'm
+                <span>Mr. Rizwan</span>
+            </h1>
+
+            <h2>
+                Frontend Developer crafting modern, responsive & engaging web
+                experiences.
+            </h2>
+
+            <p>
+                I transform ideas into clean, accessible and high-performance websites
+                using HTML, CSS and JavaScript.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn primary"> Explore My Work </a>
+
+                <a href="#contact" class="btn secondary"> Get In Touch </a>
+            </div>
+
+            <div class="social">
+                <a href="mailto:mrizzz1919@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="profilepic.jpeg" alt="Portrait of Mr. Rizwan" />
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about">
+            <div class="about-text">
+                <p>
+                    I'm a passionate Frontend Developer focused on creating beautiful,
+                    accessible and responsive websites.
+                </p>
+
+                <p>
+                    I have strong fundamentals in HTML5, CSS3 and JavaScript. I enjoy
+                    turning designs and ideas into interactive websites.
+                </p>
+
+                <p>
+                    My goal is to write clean code and create websites that work
+                    smoothly on mobile, tablet and desktop devices.
+                </p>
+            </div>
+
+            <div class="about-cards">
+                <div class="card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Websites that look great on every screen.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Clean Code</h3>
+                    <p>Simple and maintainable code.</p>
+                </div>
+
+                <div class="card">
+                    <i class="fa-solid fa-universal-access"></i>
+                    <h3>Accessibility</h3>
+                    <p>Websites everyone can use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic & accessible markup</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Responsive layouts & animations</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Modern interactive websites</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version control</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <h3>VS Code</h3>
+                <p>Development workflow</p>
+            </div>
+
+            <div class="skill">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>DevTools</h3>
+                <p>Debugging & testing</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <div class="project-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A modern responsive portfolio website created with HTML, CSS and
+                    JavaScript.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <h3>E-Commerce UI</h3>
+
+                <p>
+                    A responsive shopping interface with clean design and interactive
+                    components.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <h3>Dashboard UI</h3>
+
+                <p>
+                    A modern dashboard interface with organized responsive components.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Let's Work Together</h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Have a project in mind?</h3>
+
+                <p>
+                    I'm currently open to frontend developer roles, freelance
+                    opportunities and exciting collaborations.
+                </p>
+
+                <a href="mailto:mrizzz1919@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    mrizzz1919@gmail.com
+                </a>
+
+                <a href="tel:+923706708624">
+                    <i class="fa-solid fa-phone"></i>
+                    +92 3706708624
+                </a>
+            </div>
+
+            <form action="https://formsubmit.co/mrizzz1919@gmail.com" method="POST" id="contact-form">
+                <input type="hidden" name="_subject" value="New Portfolio Contact" />
+
+                <input type="hidden" name="_captcha" value="false" />
+
+                <label for="name">Your Name</label>
+
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+
+                <label for="email">Your Email</label>
+
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+                <label for="message">Your Message</label>
+
+                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."
+                    required></textarea>
+
+                <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            &copy; <span id="year"></span>
+            Mr. Rizwan. Built with HTML, CSS & JavaScript.
         </p>
-        <button class="learn">Learn More</button>
-      </div>
-      <div class="img-content">
-        <img class="img" src="business.jpg" alt="" />
-      </div>
-    </div>
-    <div class="menu-row">
-      <div class="menu-col">
-        <div class="yellow-box">
-          <i class="fa-solid fa-chart-diagram"></i>
-          <p>
-            Between stimulus and response there is a space. In that space is our
-            power to choose our response. In our response lies our growth and
-            our freedom.
-          </p>
-        </div>
-        <div class="red-box">
-          <i class="fa-regular fa-map"></i>
-          <p>
-            Between stimulus and response there is a space. In that space is our
-            power to choose our response. In our response lies our growth and
-            our freedom.
-          </p>
-        </div>
-        <div class="blue-box">
-          <i class="fa-brands fa-skyatlas"></i>
-          <p>
-            Between stimulus and response there is a space. In that space is our
-            power to choose our response. In our response lies our growth and
-            our freedom.
-          </p>
-        </div>
-        <div class="black-box">
-          <i class="fa-solid fa-diagram-next"></i>
-          <p>
-            Between stimulus and response there is a space. In that space is our
-            power to choose our response. In our response lies our growth and
-            our freedom.
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>       
+    </footer>
+
+    <script>
+        const year = document.getElementById("year");
+        year.textContent = new Date().getFullYear();
+
+        const form = document.getElementById("contact-form");
+
+        form.addEventListener("submit", function () {
+            const button = form.querySelector("button");
+
+            button.innerHTML =
+                '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+
+            button.disabled = true;
+        });
+    </script>
+</body>
+
+</html>
