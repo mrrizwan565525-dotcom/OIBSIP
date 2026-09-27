@@ -1,38 +1,49 @@
-OIBSIP Web Development Internship
+OIBSIP — Web Development & Designing
 
-This repository contains the web development projects completed during my Oasis Infobyte Web Development Internship (OIBSIP).
+This repository contains the projects completed during my Oasis Infobyte Web Development & Designing Internship (OIBSIP).
 
-Projects
+Completed Level
+
+Level 1 — Web Development & Designing
+
+All three tasks required for Level 1 have been completed.
+
+Tasks
 
 1. Landing Page
 
-A responsive landing page designed and developed using HTML5 and CSS3, with JavaScript functionality where required.
+A visually polished and responsive landing page created using HTML5 and CSS3.
 
 Technologies:
 
 - HTML5
 - CSS3
-- JavaScript
+
+Project Folder: "WebDev-L1-LandingPage/"
 
 2. Personal Portfolio
 
-A personal portfolio website created to showcase my skills, projects, and web development work with a responsive and professional design.
+A responsive personal portfolio website showcasing my profile, skills, projects, and contact information.
 
 Technologies:
 
 - HTML5
 - CSS3
 - JavaScript
+
+Project Folder: "WebDev-L1-PersonalPortfolio/"
 
 3. Temperature Converter
 
-A temperature conversion web application that allows users to convert temperatures between different units.
+An interactive temperature conversion web application for converting temperature values between different units.
 
 Technologies:
 
 - HTML5
 - CSS3
 - JavaScript
+
+Project Folder: "WebDev-L1-TemperatureConverter/"
 
 Technologies & Tools
 
@@ -45,37 +56,43 @@ Technologies & Tools
 
 Repository Structure
 
-OIBSIP-Web-Development-Internship/
+OIBSIP/
 │
-├── Landing page/
+├── WebDev-L1-LandingPage/
 │   ├── Business.jpg
 │   ├── index.html
-│   └── style.css
+│   ├── style.css
+│   └── README.md
 │
-├── Portfolio/
+├── WebDev-L1-PersonalPortfolio/
 │   ├── Portfolio pic.jpeg
 │   ├── index.html
 │   ├── style.css
-│   └── script.js
+│   ├── script.js
+│   └── README.md
 │
-├── Temperature converter/
+├── WebDev-L1-TemperatureConverter/
 │   ├── index.html
 │   ├── style.css
-│   └── script.js
+│   ├── script.js
+│   └── README.md
 │
 └── README.md
 
 Demo Videos
 
+The project demonstration videos are hosted on Google Drive.
+
 - "Landing Page Demo" (https://drive.google.com/file/d/1QgCB7xu0iIfbquy5DC3GGaENXm8x1UhC/view?usp=sharing)
-- "Portfolio Demo" (https://drive.google.com/file/d/1kIaHzGtC2OaGSMviPguEbb5v9qLQ80Lc/view?usp=sharing)
+- "Personal Portfolio Demo" (https://drive.google.com/file/d/1kIaHzGtC2OaGSMviPguEbb5v9qLQ80Lc/view?usp=sharing)
 - "Temperature Converter Demo" (https://drive.google.com/file/d/19NNDHmY-YMjGngpf_Q6UCPKhN_0px7JL/view?usp=sharing)
 
 Internship
 
 Organization: Oasis Infobyte
-Program: OIBSIP Web Development Internship
-Domain: Web Development
+Program: OIBSIP Web Development & Designing Internship
+Track: Web Development & Designing
+Level: Level 1
 
 Author
 
